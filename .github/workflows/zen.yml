@@ -3,7 +3,7 @@ name: zen-broadcast
 on:
   workflow_dispatch: # 保留手動抽籤開示按鈕
   schedule:
-    - cron: '0 22 * * *' # UTC 22:00 = 台灣時間隔天早上的 06:00
+    - cron: '13 16 * * *' # UTC 16:13 = 台灣時間隔天早上的 00:13
 
 jobs:
   run-zen-bot:
