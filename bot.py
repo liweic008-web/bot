@@ -124,7 +124,7 @@ def get_buddhist_quote():
     report = f" ═══ 【星雲法師．雲端晨間開示】 ═══ \n"
     report += f" 雲端曆法：{now.strftime('%Y/%m/%d %H:%M')}\n\n"
     report += f"✨ 『 {quote} 』 ✨\n\n"
-    report += f"願各位太空居士，今日心無罣礙，事事順心。"
+    report += f"願各位咚大學子，今日心無罣礙，事事順心。"
     return report
 
 @bot.event
