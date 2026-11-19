@@ -6,7 +6,7 @@ from discord.ext import commands
 import pytz
 
 # 🚨 貼上你想讓法師開示的頻道 ID
-CHANNEL_ID = 1537423958696132649  
+CHANNEL_ID = 15374239586961326
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
